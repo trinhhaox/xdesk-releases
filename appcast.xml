@@ -3,26 +3,27 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.0-beta</title>
-            <pubDate>Thu, 19 Nov 2026 14:41:00 +0700</pubDate>
+            <title>0.1.1-beta</title>
+            <pubDate>Thu, 19 Nov 2026 22:14:06 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.1.0-beta</sparkle:shortVersionString>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.1.1-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.0-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.1-beta
 
-Bản beta công khai đầu tiên.
+Bản sửa lỗi và cải thiện điều khiển từ điện thoại.
 
-- Biến iPhone, iPad, Android hoặc một máy Mac khác thành màn hình phụ cho Mac (màn hình ảo Retina, chế độ gương).
-- Điều khiển Mac từ điện thoại hoặc từ máy Mac khác: chuột, bàn phím, cuộn, gõ tiếng Việt.
-- Chia sẻ clipboard, truyền âm thanh hệ thống, kết nối qua cáp USB hoặc Tailscale.
-- Mọi phiên đều được mã hoá (Noise) và chỉ chấp nhận thiết bị đã ghép đôi.
-- Máy chủ MCP cục bộ cho agent AI: chụp màn hình, đọc cây giao diện, gõ phím, chuột; luôn có nút dừng và hỏi xác nhận khi cần.
-- Cập nhật tự động qua Sparkle; menu "Kiểm tra cập nhật…".
+- Chế độ "Bản sao" lên đầu và là mặc định, thêm 3 kiểu: Giống màn hình Mac (phóng to bằng hai ngón), Vừa với điện thoại, Tối ưu thao tác.
+- Cửa sổ ứng dụng trên Mac tự co giãn cho vừa màn hình điện thoại và trở lại như cũ khi ngắt kết nối (tắt được trong menu).
+- Bàn phím mới: hình Mac trượt lên theo bàn phím, thanh phím ⌘ ⌥ ⌃ ⇧, Esc, Tab, mũi tên; phím bổ trợ chạm một lần hoặc khoá.
+- Cài đặt chuột: Chạm trực tiếp hoặc Con trỏ (kiểu trackpad), tốc độ con trỏ, cuộn tự nhiên, nhấn giữ để chuột phải.
+- Nút điều khiển gom vào một nút nổi kéo được, không che thanh menu Mac.
+- Mac: cửa sổ "Cập nhật" với tự kiểm tra và tự cài bản mới.
+- Android: tự cập nhật trong app, có icon, sửa lỗi văng khi mở trên máy thật, tắt camera sau khi quét QR, giảm giật hình trên chip Unisoc, khung hình luôn đúng thứ tự.
 
-Yêu cầu: macOS 14 trở lên. Lần đầu mở cần cấp quyền Ghi màn hình và Trợ năng.
+Yêu cầu: macOS 14 trở lên; Android 12 trở lên.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.0-beta/Xdesk-0.1.0-beta.dmg" length="4258177" type="application/octet-stream" sparkle:edSignature="7N5RkdnekyaM7Mekd6A7AShPHe7hLkV9P/fn6ppBVtlhyR3V+v+Fta9VeI0+32ltrbNdi8puqj1aLrUsqp44Dw=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.1-beta/Xdesk-0.1.1-beta.dmg" length="4375022" type="application/octet-stream" sparkle:edSignature="gGePpHtEVAPvk2PdUkfi2PTG2eUrvSopAiWiMa8+6tdjwi3sWUCQS2YgCiTbJpRa7Lz5q3G/iurzDZkKAlFmAA=="/>
         </item>
     </channel>
 </rss>
