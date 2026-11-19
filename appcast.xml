@@ -3,27 +3,25 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.1-beta</title>
-            <pubDate>Thu, 19 Nov 2026 22:14:06 +0700</pubDate>
+            <title>0.1.2-beta</title>
+            <pubDate>Fri, 20 Nov 2026 01:09:39 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.1.1-beta</sparkle:shortVersionString>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>0.1.2-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.1-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.2-beta
 
-Bản sửa lỗi và cải thiện điều khiển từ điện thoại.
+Giao diện mới trên cả ba ứng dụng và nhiều sửa lỗi kết nối.
 
-- Chế độ "Bản sao" lên đầu và là mặc định, thêm 3 kiểu: Giống màn hình Mac (phóng to bằng hai ngón), Vừa với điện thoại, Tối ưu thao tác.
-- Cửa sổ ứng dụng trên Mac tự co giãn cho vừa màn hình điện thoại và trở lại như cũ khi ngắt kết nối (tắt được trong menu).
-- Bàn phím mới: hình Mac trượt lên theo bàn phím, thanh phím ⌘ ⌥ ⌃ ⇧, Esc, Tab, mũi tên; phím bổ trợ chạm một lần hoặc khoá.
-- Cài đặt chuột: Chạm trực tiếp hoặc Con trỏ (kiểu trackpad), tốc độ con trỏ, cuộn tự nhiên, nhấn giữ để chuột phải.
-- Nút điều khiển gom vào một nút nổi kéo được, không che thanh menu Mac.
-- Mac: cửa sổ "Cập nhật" với tự kiểm tra và tự cài bản mới.
-- Android: tự cập nhật trong app, có icon, sửa lỗi văng khi mở trên máy thật, tắt camera sau khi quét QR, giảm giật hình trên chip Unisoc, khung hình luôn đúng thứ tự.
+- Mac: bảng điều khiển mới trên thanh menu, luôn hiện trạng thái chia sẻ, nút Bắt đầu/Dừng rõ ràng, nhắc cấp quyền kèm nút mở đúng mục Cài đặt, danh sách thiết bị đang xem; cửa sổ Cài đặt chia 5 mục.
+- Điện thoại: nút quét QR ngay màn hình chính, ghép và chọn nhiều máy Mac, xoá máy đã ghép, báo lỗi dễ hiểu kèm Thử lại, màn "Đang kết nối" có nút Huỷ.
+- Android: giao diện sáng/tối theo máy, kiểu "Giống màn hình Mac" có phóng to, hình luôn vừa khung, sửa lỗi decoder.
+- Ghép đôi qua QR hoạt động khi mạng nhà chặn các máy nói chuyện với nhau (dùng Tailscale).
+- Sửa lỗi bảo mật: luật mặc định "Cấm" cho Terminal, Keychain Access, Cài đặt hệ thống với agent AI có thể bị ghi đè.
 
 Yêu cầu: macOS 14 trở lên; Android 12 trở lên.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.1-beta/Xdesk-0.1.1-beta.dmg" length="4375022" type="application/octet-stream" sparkle:edSignature="gGePpHtEVAPvk2PdUkfi2PTG2eUrvSopAiWiMa8+6tdjwi3sWUCQS2YgCiTbJpRa7Lz5q3G/iurzDZkKAlFmAA=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.2-beta/Xdesk-0.1.2-beta.dmg" length="4569937" type="application/octet-stream" sparkle:edSignature="+xMabdBon1ictFD2/wSqanQnEEE5SC0m6qU6/dFmeqUzIdrxb5OlR7LI9iBejcRH3YlBncT1/Ncy2rEk2VwQDA=="/>
         </item>
     </channel>
 </rss>
