@@ -1,10 +1,10 @@
 {
-  "versionCode": 2,
-  "versionName": "0.1.1-beta",
-  "apkUrl": "https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.1-beta/xdesk-0.1.1-beta.apk",
-  "sha256": "326f3d48ba87be84565cefc397418ca6fc11b6000dae3317f00dfb5f9d95b901",
-  "size": 3429647,
+  "versionCode": 3,
+  "versionName": "0.1.2-beta",
+  "apkUrl": "https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.2-beta/xdesk-0.1.2-beta.apk",
+  "sha256": "c3e8dbd72e771df16dae911ebd04b70d300f00bc2b5e94ea32bb05ac4f7aa78a",
+  "size": 3577167,
   "minSdk": 31,
-  "releaseNotes": "Bản sửa lỗi và cải thiện điều khiển từ điện thoại.\n\n- Chế độ \"Bản sao\" lên đầu và là mặc định, thêm 3 kiểu: Giống màn hình Mac (phóng to bằng hai ngón), Vừa với điện thoại, Tối ưu thao tác.\n- Cửa sổ ứng dụng trên Mac tự co giãn cho vừa màn hình điện thoại và trở lại như cũ khi ngắt kết nối (tắt được trong menu).\n- Bàn phím mới: hình Mac trượt lên theo bàn phím, thanh phím ⌘ ⌥ ⌃ ⇧, Esc, Tab, mũi tên; phím bổ trợ chạm một lần hoặc khoá.\n- Cài đặt chuột: Chạm trực tiếp hoặc Con trỏ (kiểu trackpad), tốc độ con trỏ, cuộn tự nhiên, nhấn giữ để chuột phải.\n- Nút điều khiển gom vào một nút nổi kéo được, không che thanh menu Mac.\n- Mac: cửa sổ \"Cập nhật\" với tự kiểm tra và tự cài bản mới.\n- Android: tự cập nhật trong app, có icon, sửa lỗi văng khi mở trên máy thật, tắt camera sau khi quét QR, giảm giật hình trên chip Unisoc, khung hình luôn đúng thứ tự.\n\nYêu cầu: macOS 14 trở lên; Android 12 trở lên.",
-  "publishedAt": "2026-11-19T15:15:39Z"
+  "releaseNotes": "Giao diện mới trên cả ba ứng dụng và nhiều sửa lỗi kết nối.\n\n- Mac: bảng điều khiển mới trên thanh menu, luôn hiện trạng thái chia sẻ, nút Bắt đầu/Dừng rõ ràng, nhắc cấp quyền kèm nút mở đúng mục Cài đặt, danh sách thiết bị đang xem; cửa sổ Cài đặt chia 5 mục.\n- Điện thoại: nút quét QR ngay màn hình chính, ghép và chọn nhiều máy Mac, xoá máy đã ghép, báo lỗi dễ hiểu kèm Thử lại, màn \"Đang kết nối\" có nút Huỷ.\n- Android: giao diện sáng/tối theo máy, kiểu \"Giống màn hình Mac\" có phóng to, hình luôn vừa khung, sửa lỗi decoder.\n- Ghép đôi qua QR hoạt động khi mạng nhà chặn các máy nói chuyện với nhau (dùng Tailscale).\n- Sửa lỗi bảo mật: luật mặc định \"Cấm\" cho Terminal, Keychain Access, Cài đặt hệ thống với agent AI có thể bị ghi đè.\n\nYêu cầu: macOS 14 trở lên; Android 12 trở lên.",
+  "publishedAt": "2026-11-19T18:09:57Z"
 }
