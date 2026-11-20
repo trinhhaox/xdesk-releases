@@ -3,21 +3,24 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.4-beta</title>
-            <pubDate>Fri, 20 Nov 2026 13:30:42 +0700</pubDate>
+            <title>0.1.5-beta</title>
+            <pubDate>Fri, 20 Nov 2026 22:08:16 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>0.1.4-beta</sparkle:shortVersionString>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>0.1.5-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.4-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.5-beta
 
-- Mac: thêm tiếng Anh. Xdesk tự theo ngôn ngữ macOS; đổi tay trong Cài đặt › Chung › Ngôn ngữ (Theo hệ thống, Tiếng Việt, English).
-- Hộp thoại cập nhật hiện đúng ngôn ngữ và không còn bị bảng thanh menu che.
-- Bảng thanh menu: mục "Thiết bị đang xem" kèm số lượng, biểu tượng và phiên bản app ở đầu bảng, nút "Dừng chia sẻ" rõ ràng hơn, chữ dễ đọc hơn trên nền trong suốt.
+- Bảo mật: ghép đôi bằng mã 6 số giờ phải bấm "Khớp" ở cả hai máy. Máy xem (iPhone, Android, Mac) chỉ lưu máy Mac sau khi chính bạn xác nhận mã trùng khớp; bấm "Không khớp" là huỷ ngay.
+- Agent AI (MCP): không còn mất kết quả "xin quyền điều khiển" khi bạn duyệt chậm hơn 10 giây; giới hạn số kết nối cùng lúc hoạt động đúng trở lại.
+- Chạm trực tiếp trên điện thoại: vuốt một ngón để cuộn lên xuống, hất mạnh để trang trôi nhanh rồi chậm dần; nhấn giữ rồi kéo để kéo thả, nhấn giữ rồi nhả để chuột phải (máy rung nhẹ khi giữ đủ lâu).
+- Chạm để click chính xác hơn: tay hơi rung không còn bị hiểu thành vuốt khi màn hình Mac hiện nhỏ trên điện thoại.
 
-Yêu cầu: macOS 14 trở lên.
+Mac cần cập nhật lên bản này để ghép đôi bằng mã 6 số với máy xem mới không bị hết hạn khi xác nhận chậm.
+
+Yêu cầu: macOS 14 trở lên; Android 12 trở lên.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.4-beta/Xdesk-0.1.4-beta.dmg" length="4614698" type="application/octet-stream" sparkle:edSignature="cSGINx7bK1s0qAxL+p90xv01WgKDQrJAt0t0k/lbGYw2VuVjfT2gNQi7FM9s0wT8dUNCcFfW2F5ZVitucofjBw=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.5-beta/Xdesk-0.1.5-beta.dmg" length="4636216" type="application/octet-stream" sparkle:edSignature="/pl/dXwRgk24lXhBPZ2CDuT5pvyGvdg7lcNfAF8jZ/5PiRfmAKAbOouEHUjulcyEQxdNqxucj2raqPtTy2fxDQ=="/>
         </item>
     </channel>
 </rss>
