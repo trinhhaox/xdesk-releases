@@ -1,10 +1,10 @@
 {
-  "versionCode": 5,
-  "versionName": "0.1.5-beta",
-  "apkUrl": "https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.5-beta/xdesk-0.1.5-beta.apk",
-  "sha256": "c2b26c6c4c54bf5a2ac5f203b1d7593e34356afbd8e78926c49fe7ff7ff15643",
+  "versionCode": 6,
+  "versionName": "0.1.6-beta",
+  "apkUrl": "https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.6-beta/xdesk-0.1.6-beta.apk",
+  "sha256": "f9566b548ba61e09325707327690712a1a903e115bed5d62c08a41bfbeb28100",
   "size": 3560863,
   "minSdk": 31,
-  "releaseNotes": "- Bảo mật: ghép đôi bằng mã 6 số giờ phải bấm \"Khớp\" ở cả hai máy. Máy xem (iPhone, Android, Mac) chỉ lưu máy Mac sau khi chính bạn xác nhận mã trùng khớp; bấm \"Không khớp\" là huỷ ngay.\n- Agent AI (MCP): không còn mất kết quả \"xin quyền điều khiển\" khi bạn duyệt chậm hơn 10 giây; giới hạn số kết nối cùng lúc hoạt động đúng trở lại.\n- Chạm trực tiếp trên điện thoại: vuốt một ngón để cuộn lên xuống, hất mạnh để trang trôi nhanh rồi chậm dần; nhấn giữ rồi kéo để kéo thả, nhấn giữ rồi nhả để chuột phải (máy rung nhẹ khi giữ đủ lâu).\n- Chạm để click chính xác hơn: tay hơi rung không còn bị hiểu thành vuốt khi màn hình Mac hiện nhỏ trên điện thoại.\n\nMac cần cập nhật lên bản này để ghép đôi bằng mã 6 số với máy xem mới không bị hết hạn khi xác nhận chậm.\n\nYêu cầu: macOS 14 trở lên; Android 12 trở lên.",
-  "publishedAt": "2026-11-20T15:09:35Z"
+  "releaseNotes": "- Chạm 2 lần vào chỗ cần gõ để mở bàn phím: cú chạm đầu đặt con trỏ gõ, màn hình tự đẩy chỗ đó lên trên bàn phím. Muốn chạm 2 lần là double-click thì tắt \"Chạm 2 lần để mở bàn phím\" trong Cài đặt chuột.\n- Nút \"Xong\" màu xanh ở thanh phím phụ để ẩn bàn phím.\n- Dòng đang gõ không còn bị bàn phím và chữ Telex xem trước che mất.\n- Khi không cập nhật được vì chữ ký khác (máy đang cài bản dựng thử), app giải thích lý do và có nút tải bản chính thức.\n\nMáy Mac không cần cập nhật cho bản này. Yêu cầu: Android 12 trở lên.",
+  "publishedAt": "2026-11-20T15:52:31Z"
 }
