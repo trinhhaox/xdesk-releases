@@ -3,22 +3,21 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.3-beta</title>
-            <pubDate>Fri, 20 Nov 2026 01:49:34 +0700</pubDate>
+            <title>0.1.4-beta</title>
+            <pubDate>Fri, 20 Nov 2026 13:30:42 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>0.1.3-beta</sparkle:shortVersionString>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>0.1.4-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.3-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.4-beta
 
-- Android và iPhone dùng chung một giao diện: cùng bố cục, chữ, biểu tượng và màu.
-- Chủ đề tối là mặc định; thêm mục Giao diện (Tối, Sáng, Theo hệ thống) trong Cài đặt.
-- Mac: bảng trên thanh menu tự đóng khi mở Cài đặt hệ thống hoặc cửa sổ khác; thêm nút "Mở lại Xdesk" sau khi cấp quyền Ghi màn hình.
-- Android: không còn nháy trắng khi mở ứng dụng.
+- Mac: thêm tiếng Anh. Xdesk tự theo ngôn ngữ macOS; đổi tay trong Cài đặt › Chung › Ngôn ngữ (Theo hệ thống, Tiếng Việt, English).
+- Hộp thoại cập nhật hiện đúng ngôn ngữ và không còn bị bảng thanh menu che.
+- Bảng thanh menu: mục "Thiết bị đang xem" kèm số lượng, biểu tượng và phiên bản app ở đầu bảng, nút "Dừng chia sẻ" rõ ràng hơn, chữ dễ đọc hơn trên nền trong suốt.
 
-Yêu cầu: macOS 14 trở lên; Android 12 trở lên.
+Yêu cầu: macOS 14 trở lên.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.3-beta/Xdesk-0.1.3-beta.dmg" length="4577243" type="application/octet-stream" sparkle:edSignature="cEhKiHjOiwsKqaHIwOYG75Z+OKSRzFGVeBkLM0gSjiD00DWX2zBlt109encPDE5nj79Ep2B5LfS/dXAOcp4TCQ=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.4-beta/Xdesk-0.1.4-beta.dmg" length="4614698" type="application/octet-stream" sparkle:edSignature="cSGINx7bK1s0qAxL+p90xv01WgKDQrJAt0t0k/lbGYw2VuVjfT2gNQi7FM9s0wT8dUNCcFfW2F5ZVitucofjBw=="/>
         </item>
     </channel>
 </rss>
