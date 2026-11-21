@@ -3,32 +3,27 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.7-beta</title>
-            <pubDate>Sun, 22 Nov 2026 01:43:29 +0700</pubDate>
+            <title>0.1.8-beta</title>
+            <pubDate>Sun, 22 Nov 2026 02:16:08 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>0.1.7-beta</sparkle:shortVersionString>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.1.8-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.7-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.8-beta
 
-Bản cập nhật lớn bổ sung chế độ điều khiển thiết bị toàn diện và tối ưu trải nghiệm truyền hình ảnh:
+Bản cập nhật nâng cấp giao diện và bổ sung chế độ Bàn phím & Chuột ảo chuyên dụng (Dedicated Trackpad & Keyboard Mode):
 
-### 1. Bàn di chuột (Trackpad) & Bàn phím ảo điều khiển Mac từ xa (iOS & Android)
-- **Trackpad đa chạm**: Di chuyển con trỏ chuột mượt mà, chạm 1 ngón = chuột trái, chạm 2 ngón (hoặc giữ) = chuột phải, vuốt 2 ngón = cuộn trang.
-- **Nút chuột vật lý chuyên dụng**: Nút Chuột Trái & Chuột Phải lớn ở đáy màn hình hỗ trợ nhấn giữ để kéo thả (Drag & Drop) tệp và cửa sổ mượt mà.
-- **Bàn phím ảo & Text Composer**: Gõ văn bản tiếng Việt có dấu chuyển trực tiếp sang Mac, hỗ trợ đầy đủ các phím bổ trợ Mac (`⌘ Cmd`, `⌥ Option`, `⌃ Control`, `⇧ Shift`), các phím `Esc`, `Tab`, `Space`, `Enter`, `Delete` và cụm mũi tên điều hướng.
-- **Bàn phím số Numpad & Điều khiển Trình chiếu Slide**: Bàn phím số 4x4 cho kế toán/bảng tính, cùng cụm nút điều khiển Keynote/PowerPoint (`▶ Chiếu F5`, `Thoát Esc`, `Slide Trước`, `Slide Sau`).
+### 1. Chế độ Bàn phím & Chuột ảo chuyên dụng (Dedicated Fullscreen Mode)
+- **Nút truy cập trực tiếp tại Màn hình chính**: Mỗi máy Mac đã ghép nối trên danh sách giờ đây có icon con trỏ chuột (`Bàn phím & Chuột ảo`) riêng biệt bên cạnh nút menu `...`, cho phép mở ngay chế độ điều khiển mà không cần mở luồng stream video.
+- **Bàn di chuột toàn màn hình (Fullscreen Trackpad)**: Màn hình điện thoại biến thành bàn rê chuột siêu lớn, hỗ trợ chạm 1 ngón di chuột/click trái, chạm 2 ngón click chuột phải, vuốt 2 ngón cuộn trang mượt mà.
+- **Nút Chuột vật lý & Bàn phím Mac đầy đủ**: Hai phím Chuột Trái / Chuột Phải lớn hỗ trợ giữ kéo thả, bàn phím ảo với đầy đủ modifier Mac (`⌘ Cmd`, `⌥ Opt`, `⌃ Ctrl`, `⇧ Shift`), các phím `Esc`, `Tab`, `Space`, `Enter`, `Delete`, cụm mũi tên, bàn phím số Numpad và điều khiển trình chiếu slide.
+- **Chuyển đổi tức thì (Seamless Toggle)**: Thanh Header trên chế độ Trackpad tích hợp nút chuyển nhanh sang chế độ xem màn hình Mac và ngược lại chỉ với 1 chạm.
 
-### 2. Tối ưu Codec & Hiệu năng
-- Hỗ trợ chuẩn nén video **HEVC (H.265)** cho cả Mac host và Client (iOS/Android): giảm 40% dung lượng băng thông, giữ hình ảnh sắc nét và tiết kiệm pin tối đa.
-- Thanh **Sidecar Quick Dock** tích hợp các lối tắt nhanh: Spotlight, Mission Control, App Switcher, Hoàn tác (Undo), Khóa và Mở khóa Mac từ xa.
-
-### 3. AI Co-Pilot & Tính năng mở rộng
-- **AI Co-Pilot Help**: Agent AI trên Mac có thể gửi thông báo yêu cầu người dùng trợ giúp khi gặp điểm nghẽn và hiển thị banner trạng thái trực tiếp trên màn hình điện thoại.
-- **Truyền tệp an toàn (File Transfer)**: Lưu tệp chuyển từ điện thoại vào `~/Downloads/Xdesk` kèm xác thực toàn vẹn mã SHA-256.
-- **USB Tunnel cho Android**: Hỗ trợ kết nối siêu mượt qua cáp USB adb với độ trễ tối thiểu.
+### 2. Đồng bộ giao diện iOS & Android
+- Cập nhật cả ứng dụng iOS (SwiftUI) và Android (Jetpack Compose) đồng bộ trải nghiệm sử dụng.
+- Tối ưu tự động ngắt kết nối và giải phóng tài nguyên mạng khi thoát chế độ bàn phím/chuột ảo.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.7-beta/Xdesk-0.1.7-beta.dmg" length="4692205" type="application/octet-stream" sparkle:edSignature="x30QTTi1iKDqI1Xyl9QkdZfwd3YmwWM98uFHxskoorQH1mtuHAh953mIwlrhPSsMcNCpeLN3cZAvxzkQsbzvDg=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.8-beta/Xdesk-0.1.8-beta.dmg" length="4692199" type="application/octet-stream" sparkle:edSignature="9sEMd4L5g4yq4NclUXXiixEJefNWEaw6VAPxQSKdjYb88p8ajb90r/UIEWSv0DBi11mjQzVUjAvuvq/iow1aBw=="/>
         </item>
     </channel>
 </rss>
