@@ -3,24 +3,32 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.5-beta</title>
-            <pubDate>Fri, 20 Nov 2026 22:08:16 +0700</pubDate>
+            <title>0.1.7-beta</title>
+            <pubDate>Sun, 22 Nov 2026 01:43:29 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>0.1.5-beta</sparkle:shortVersionString>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>0.1.7-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.5-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.7-beta
 
-- Bảo mật: ghép đôi bằng mã 6 số giờ phải bấm "Khớp" ở cả hai máy. Máy xem (iPhone, Android, Mac) chỉ lưu máy Mac sau khi chính bạn xác nhận mã trùng khớp; bấm "Không khớp" là huỷ ngay.
-- Agent AI (MCP): không còn mất kết quả "xin quyền điều khiển" khi bạn duyệt chậm hơn 10 giây; giới hạn số kết nối cùng lúc hoạt động đúng trở lại.
-- Chạm trực tiếp trên điện thoại: vuốt một ngón để cuộn lên xuống, hất mạnh để trang trôi nhanh rồi chậm dần; nhấn giữ rồi kéo để kéo thả, nhấn giữ rồi nhả để chuột phải (máy rung nhẹ khi giữ đủ lâu).
-- Chạm để click chính xác hơn: tay hơi rung không còn bị hiểu thành vuốt khi màn hình Mac hiện nhỏ trên điện thoại.
+Bản cập nhật lớn bổ sung chế độ điều khiển thiết bị toàn diện và tối ưu trải nghiệm truyền hình ảnh:
 
-Mac cần cập nhật lên bản này để ghép đôi bằng mã 6 số với máy xem mới không bị hết hạn khi xác nhận chậm.
+### 1. Bàn di chuột (Trackpad) & Bàn phím ảo điều khiển Mac từ xa (iOS & Android)
+- **Trackpad đa chạm**: Di chuyển con trỏ chuột mượt mà, chạm 1 ngón = chuột trái, chạm 2 ngón (hoặc giữ) = chuột phải, vuốt 2 ngón = cuộn trang.
+- **Nút chuột vật lý chuyên dụng**: Nút Chuột Trái & Chuột Phải lớn ở đáy màn hình hỗ trợ nhấn giữ để kéo thả (Drag & Drop) tệp và cửa sổ mượt mà.
+- **Bàn phím ảo & Text Composer**: Gõ văn bản tiếng Việt có dấu chuyển trực tiếp sang Mac, hỗ trợ đầy đủ các phím bổ trợ Mac (`⌘ Cmd`, `⌥ Option`, `⌃ Control`, `⇧ Shift`), các phím `Esc`, `Tab`, `Space`, `Enter`, `Delete` và cụm mũi tên điều hướng.
+- **Bàn phím số Numpad & Điều khiển Trình chiếu Slide**: Bàn phím số 4x4 cho kế toán/bảng tính, cùng cụm nút điều khiển Keynote/PowerPoint (`▶ Chiếu F5`, `Thoát Esc`, `Slide Trước`, `Slide Sau`).
 
-Yêu cầu: macOS 14 trở lên; Android 12 trở lên.
+### 2. Tối ưu Codec & Hiệu năng
+- Hỗ trợ chuẩn nén video **HEVC (H.265)** cho cả Mac host và Client (iOS/Android): giảm 40% dung lượng băng thông, giữ hình ảnh sắc nét và tiết kiệm pin tối đa.
+- Thanh **Sidecar Quick Dock** tích hợp các lối tắt nhanh: Spotlight, Mission Control, App Switcher, Hoàn tác (Undo), Khóa và Mở khóa Mac từ xa.
+
+### 3. AI Co-Pilot & Tính năng mở rộng
+- **AI Co-Pilot Help**: Agent AI trên Mac có thể gửi thông báo yêu cầu người dùng trợ giúp khi gặp điểm nghẽn và hiển thị banner trạng thái trực tiếp trên màn hình điện thoại.
+- **Truyền tệp an toàn (File Transfer)**: Lưu tệp chuyển từ điện thoại vào `~/Downloads/Xdesk` kèm xác thực toàn vẹn mã SHA-256.
+- **USB Tunnel cho Android**: Hỗ trợ kết nối siêu mượt qua cáp USB adb với độ trễ tối thiểu.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.5-beta/Xdesk-0.1.5-beta.dmg" length="4636216" type="application/octet-stream" sparkle:edSignature="/pl/dXwRgk24lXhBPZ2CDuT5pvyGvdg7lcNfAF8jZ/5PiRfmAKAbOouEHUjulcyEQxdNqxucj2raqPtTy2fxDQ=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.7-beta/Xdesk-0.1.7-beta.dmg" length="4692205" type="application/octet-stream" sparkle:edSignature="x30QTTi1iKDqI1Xyl9QkdZfwd3YmwWM98uFHxskoorQH1mtuHAh953mIwlrhPSsMcNCpeLN3cZAvxzkQsbzvDg=="/>
         </item>
     </channel>
 </rss>
