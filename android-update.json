@@ -1,10 +1,10 @@
 {
-  "versionCode": 6,
-  "versionName": "0.1.6-beta",
-  "apkUrl": "https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.6-beta/xdesk-0.1.6-beta.apk",
-  "sha256": "f9566b548ba61e09325707327690712a1a903e115bed5d62c08a41bfbeb28100",
-  "size": 3560863,
+  "versionCode": 7,
+  "versionName": "0.1.7-beta",
+  "apkUrl": "https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.7-beta/xdesk-0.1.7-beta.apk",
+  "sha256": "255724a0d4b8d7e03006a956d075344e94b4493fdb4524c24c2ee782af7149f5",
+  "size": 3687911,
   "minSdk": 31,
-  "releaseNotes": "- Chạm 2 lần vào chỗ cần gõ để mở bàn phím: cú chạm đầu đặt con trỏ gõ, màn hình tự đẩy chỗ đó lên trên bàn phím. Muốn chạm 2 lần là double-click thì tắt \"Chạm 2 lần để mở bàn phím\" trong Cài đặt chuột.\n- Nút \"Xong\" màu xanh ở thanh phím phụ để ẩn bàn phím.\n- Dòng đang gõ không còn bị bàn phím và chữ Telex xem trước che mất.\n- Khi không cập nhật được vì chữ ký khác (máy đang cài bản dựng thử), app giải thích lý do và có nút tải bản chính thức.\n\nMáy Mac không cần cập nhật cho bản này. Yêu cầu: Android 12 trở lên.",
-  "publishedAt": "2026-11-20T15:52:31Z"
+  "releaseNotes": "Bản cập nhật lớn bổ sung chế độ điều khiển thiết bị toàn diện và tối ưu trải nghiệm truyền hình ảnh:\n\n### 1. Bàn di chuột (Trackpad) & Bàn phím ảo điều khiển Mac từ xa (iOS & Android)\n- **Trackpad đa chạm**: Di chuyển con trỏ chuột mượt mà, chạm 1 ngón = chuột trái, chạm 2 ngón (hoặc giữ) = chuột phải, vuốt 2 ngón = cuộn trang.\n- **Nút chuột vật lý chuyên dụng**: Nút Chuột Trái & Chuột Phải lớn ở đáy màn hình hỗ trợ nhấn giữ để kéo thả (Drag & Drop) tệp và cửa sổ mượt mà.\n- **Bàn phím ảo & Text Composer**: Gõ văn bản tiếng Việt có dấu chuyển trực tiếp sang Mac, hỗ trợ đầy đủ các phím bổ trợ Mac (`⌘ Cmd`, `⌥ Option`, `⌃ Control`, `⇧ Shift`), các phím `Esc`, `Tab`, `Space`, `Enter`, `Delete` và cụm mũi tên điều hướng.\n- **Bàn phím số Numpad & Điều khiển Trình chiếu Slide**: Bàn phím số 4x4 cho kế toán/bảng tính, cùng cụm nút điều khiển Keynote/PowerPoint (`▶ Chiếu F5`, `Thoát Esc`, `Slide Trước`, `Slide Sau`).\n\n### 2. Tối ưu Codec & Hiệu năng\n- Hỗ trợ chuẩn nén video **HEVC (H.265)** cho cả Mac host và Client (iOS/Android): giảm 40% dung lượng băng thông, giữ hình ảnh sắc nét và tiết kiệm pin tối đa.\n- Thanh **Sidecar Quick Dock** tích hợp các lối tắt nhanh: Spotlight, Mission Control, App Switcher, Hoàn tác (Undo), Khóa và Mở khóa Mac từ xa.\n\n### 3. AI Co-Pilot & Tính năng mở rộng\n- **AI Co-Pilot Help**: Agent AI trên Mac có thể gửi thông báo yêu cầu người dùng trợ giúp khi gặp điểm nghẽn và hiển thị banner trạng thái trực tiếp trên màn hình điện thoại.\n- **Truyền tệp an toàn (File Transfer)**: Lưu tệp chuyển từ điện thoại vào `~/Downloads/Xdesk` kèm xác thực toàn vẹn mã SHA-256.\n- **USB Tunnel cho Android**: Hỗ trợ kết nối siêu mượt qua cáp USB adb với độ trễ tối thiểu.",
+  "publishedAt": "2026-11-21T18:44:45Z"
 }
