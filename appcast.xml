@@ -3,36 +3,52 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.2.0-beta</title>
-            <pubDate>Sun, 22 Nov 2026 15:52:31 +0700</pubDate>
+            <title>0.2.1-beta</title>
+            <pubDate>Mon, 23 Nov 2026 04:23:15 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta</sparkle:shortVersionString>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>0.2.1-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.2.0-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.2.1-beta
 
-Bản nâng cấp lớn hoàn thiện 5 chế độ làm việc, trợ lý Tailscale, tối ưu hoá băng thông, truyền tệp 2 chiều, đồng bộ Clipboard, mở khoá Mac bằng sinh trắc học và hỗ trợ đa màn hình trên cả Mac, iOS và Android:
+Mở khoá Mac bằng Face ID/vân tay có xác thực thật, bàn phím Mac đầy đủ trên điện thoại, chỉnh cửa sổ Mac từ điện thoại, giao diện điều khiển mới cho cả dọc lẫn ngang, và nhiều sửa lỗi kết nối.
 
-### 1. Hợp nhất 5 chế độ làm việc & Đổi chế độ tức thì (Mac, iOS & Android)
-- **5 chế độ làm việc thống nhất**: **Chiếu màn hình Mac** (Bản sao), **Màn hình phụ (Mở rộng)**, **Bàn phím cảm ứng (Chuột)**, **Bàn phím gõ chữ**, và **Trình chiếu & Phím số**; chọn chế độ mặc định trong Cài đặt hoặc chuyển đổi ngay trong phiên qua menu nổi `...`.
-- **Tạm dừng video thông minh (`video.pause` / `video.resume`)**: Ở 3 chế độ điều khiển (Chuột, Bàn phím, Slide & Số), Mac Host tự tạm dừng captura & mã hoá video (~0% CPU/GPU, ~0 kbps băng thông) và khôi phục tức thì khi quay lại chế độ xem màn hình.
-- **Đổi chế độ & Kiểu chiếu không gián đoạn (`display.reconfigure`)**: Chuyển giữa Bản sao ↔ Mở rộng hoặc đổi Kiểu chiếu (**Vừa điện thoại / Toàn màn hình / Giữ nguyên Mac**) ngay trên kết nối đang mở mà không cần ngắt kết nối lại.
+### 1. Khoá và mở khoá Mac
+- **Mở khoá bằng Face ID/vân tay có chữ ký**: điện thoại giữ một khoá riêng (iPhone: Secure Enclave, Android: Keystore) chỉ dùng được sau Face ID/vân tay/mã khoá. Mac gửi mã thử thách dùng một lần và chỉ gõ mật khẩu khi chữ ký đúng. Hộp thoại xác thực ghi tên Mac.
+- **Đăng ký khoá**: bật "Mở khoá Mac" hoặc bấm **Đặt lại khoá** ở Cài đặt › Thiết bị, rồi bấm "Mở khoá Mac" trên điện thoại trong 5 phút (có đồng hồ đếm ngược). Máy đã bật quyền mở khoá từ bản trước **phải đặt lại khoá một lần**.
+- **Khoá Mac thật** (như menu Apple › Khoá màn hình); nếu không khoá được, điện thoại báo rõ.
+- **Giữ kết nối khi Mac khoá/ngủ**: điện thoại hiện màn che "Mac đang khoá" có nút **Mở khoá Mac** ngay trên đó; hình tự chạy lại khi Mac mở khoá.
 
-### 2. Tự kết nối lại, Trợ lý Tailscale & Tăng tốc USB Android
-- **Tự kết nối lại thông minh (Auto-Reconnect)**: Khi rớt mạng tạm thời, tự động thử kết nối lại tối đa 3 lần (1s → 2s → 4s) và tự chuyển mạch từ IP LAN sang IP Tailscale (`100.64.0.0/10`) khi rời mạng Wi-Fi nội bộ.
-- **Trợ lý bật/cài Tailscale**: Tự nhận diện địa chỉ Tailscale (`100.64.0.0/10` hoặc `.ts.net`) và hỗ trợ mở nhanh ứng dụng Tailscale hoặc trang cài đặt App Store / Google Play.
-- **Truyền Video/Audio qua USB TCP cho Android (`MediaOverTcp`)**: Tự động truyền luồng hình ảnh và âm thanh trực tiếp qua kết nối TCP loopback (`adb reverse`) khi cắm cáp USB Android.
+### 2. Bàn phím Mac trên điện thoại
+- Chế độ Bàn phím có **bàn phím Mac đầy đủ** (esc, F1–F12, số, QWERTY, ⇧ ⌃ ⌥ ⌘, phím mũi tên) gửi phím thật: gõ tiếng Việt bằng bộ gõ của Mac, ⌘C/⌘V/⌘Tab/⌘Space chạy như bàn phím thật.
+- Phím bổ trợ: chạm 1 lần áp cho phím kế tiếp, chạm 2 lần khoá, hoặc giữ bằng một ngón. Giữ phím để lặp. Caps lock giữ suốt phiên.
+- Vẫn có kiểu **Gõ văn bản** như trước (nút ⌨ / Aa trên thanh trên cùng).
 
-### 3. Đồng bộ Clipboard 2 chiều & Truyền tệp Streaming 2 chiều (tối đa 2 GB)
-- **Đồng bộ Clipboard 2 chiều trên Android**: Đồng bộ văn bản và ảnh PNG (≤ 10 MB) hai chiều giữa Mac và Android với kiểm tra SHA-256 chống lặp vòng, tương đương bản iOS.
-- **Truyền tệp 2 chiều Streaming (`file.start` / `file.chunk` / `file.done` / `file.cancel`)**: Gửi và nhận tệp hai chiều giữa Mac ↔ iOS / Android theo từng mảnh 64 KB qua kênh mã hoá (hỗ trợ tệp tới 2 GB, thanh tiến trình kèm nút Huỷ, kiểm tra toàn vẹn SHA-256, lưu vào `~/Downloads` trên Mac, ứng dụng **Tệp** trên iOS và thư mục **Downloads/Xdesk** trên Android).
+### 3. Giao diện điều khiển mới (dọc và ngang)
+- Thanh trên cùng gọn một hàng với menu chọn chế độ.
+- **Ngang**: bàn phím chiếm trọn màn hình; thiếu chỗ thì ẩn hàng F, dùng phím `fn`.
+- **Dọc**: nửa trên di chuột, nửa dưới bàn phím.
+- **Slide & Số**: dọc xếp chồng, ngang chia 3 cột; bàn phím số gửi phím số thật.
+- Ở chế độ Chuột/Bàn phím/Slide & Số, **màn hình Mac giữ nguyên** (không tạo màn hình ảo, không co cửa sổ, xoay điện thoại không làm Mac thay đổi).
 
-### 4. Mở khoá Mac bằng Sinh trắc học, Đa màn hình & Cử chỉ nâng cao
-- **Mở khoá Mac thật từ xa an toàn (Opt-in)**: Lưu mật khẩu trong macOS Keychain (`AfterFirstUnlockThisDeviceOnly`), yêu cầu cấp quyền kép (toàn cục + từng thiết bị) và bắt buộc xác thực Face ID / Touch ID / Vân tay trên điện thoại trước khi gửi lệnh mở khoá.
-- **Chọn màn hình Mac & Vị trí màn hình phụ**: Hỗ trợ chọn màn hình vật lý cần chiếu khi Mac có từ 2 màn hình trở lên (`display.list`), và tuỳ chọn đặt màn hình phụ ở 4 hướng (**Bên phải / Bên trái / Phía trên / Phía dưới**).
-- **Tuỳ chọn FPS (`30 / 60 / 120 fps`), Phím Media & Cử chỉ Trackpad**: Thêm mức FPS/Chất lượng, chọn codec HEVC/H.264 trên Android, nút tắt tiếng cục bộ trên điện thoại, dãy phím Media/Âm lượng hệ thống thực (`media.key`) và cử chỉ Trackpad chạm kép giữ để kéo + vuốt 3 ngón (Mission Control / App Exposé / chuyển Space).
+### 4. Chỉnh cửa sổ Mac từ điện thoại
+- Menu nổi › **Chỉnh cửa sổ**: chạm chọn cửa sổ, kéo 1 ngón để di chuyển, chụm 2 ngón hoặc kéo góc để đổi kích thước, nút nhanh **Vừa màn hình · Trái · Phải · Giữa · Khôi phục**. Cần quyền Điều khiển.
+
+### 5. Kết nối, âm thanh, USB
+- Sửa lỗi Android **"đang kết nối lại" liên tục** qua Tailscale (giải mã âm thanh làm nghẽn kết nối).
+- Âm thanh Android tự tăng bộ đệm khi mạng rung, bớt rè.
+- Đường qua máy chủ trung gian (độ trễ > 80 ms) giới hạn 5 Mb/s cho hình mượt hơn.
+- Mac tự chạy `adb reverse` khi cắm điện thoại Android (đã bật USB debugging).
+
+### 6. Bảo mật
+- Quyền **Gửi/nhận tệp** riêng cho từng thiết bị (mặc định tắt). **Máy đã ghép trước đây cần bật lại quyền này** ở Cài đặt › Thiết bị.
+- Thu hồi thiết bị giữa phiên là mất quyền ngay (tệp, clipboard, mở khoá).
+
+### Lưu ý nâng cấp
+- Sau khi đăng ký khoá mở khoá, **không hạ cấp được** về bản cũ (bản cũ từ chối đọc danh sách thiết bị nhưng không xoá).
+- iOS: bản TestFlight cập nhật sau.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.2.0-beta/Xdesk-0.2.0-beta.dmg" length="4926769" type="application/octet-stream" sparkle:edSignature="8kvkm3vhHYEDcF1pzObokPqmV585oNhLkjAQYj/Ju8/ZtMVnoXXb8Y7DQXiI2YjXwK2/mQYXAEsNLurwKBrKBw=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.2.1-beta/Xdesk-0.2.1-beta.dmg" length="5207635" type="application/octet-stream" sparkle:edSignature="7baTFMpoghml6LI49SPB/SAAIFkyr25rUexm1CEDpkTG6C7AYhvUYiwoFY8o2tfNmK9yO9vd4ZjbWipmX0GXDA=="/>
         </item>
     </channel>
 </rss>
