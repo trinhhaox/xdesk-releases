@@ -3,27 +3,27 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.1.8-beta</title>
-            <pubDate>Sun, 22 Nov 2026 02:16:08 +0700</pubDate>
+            <title>0.1.9-beta</title>
+            <pubDate>Sun, 22 Nov 2026 12:01:26 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>0.1.8-beta</sparkle:shortVersionString>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>0.1.9-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.8-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.1.9-beta
 
-Bản cập nhật nâng cấp giao diện và bổ sung chế độ Bàn phím & Chuột ảo chuyên dụng (Dedicated Trackpad & Keyboard Mode):
+Bản vá cải thiện độ ổn định kết nối qua Tailscale/nhập địa chỉ thủ công và hoàn thiện chế độ Bàn phím & Chuột ảo chuyên dụng:
 
-### 1. Chế độ Bàn phím & Chuột ảo chuyên dụng (Dedicated Fullscreen Mode)
-- **Nút truy cập trực tiếp tại Màn hình chính**: Mỗi máy Mac đã ghép nối trên danh sách giờ đây có icon con trỏ chuột (`Bàn phím & Chuột ảo`) riêng biệt bên cạnh nút menu `...`, cho phép mở ngay chế độ điều khiển mà không cần mở luồng stream video.
-- **Bàn di chuột toàn màn hình (Fullscreen Trackpad)**: Màn hình điện thoại biến thành bàn rê chuột siêu lớn, hỗ trợ chạm 1 ngón di chuột/click trái, chạm 2 ngón click chuột phải, vuốt 2 ngón cuộn trang mượt mà.
-- **Nút Chuột vật lý & Bàn phím Mac đầy đủ**: Hai phím Chuột Trái / Chuột Phải lớn hỗ trợ giữ kéo thả, bàn phím ảo với đầy đủ modifier Mac (`⌘ Cmd`, `⌥ Opt`, `⌃ Ctrl`, `⇧ Shift`), các phím `Esc`, `Tab`, `Space`, `Enter`, `Delete`, cụm mũi tên, bàn phím số Numpad và điều khiển trình chiếu slide.
-- **Chuyển đổi tức thì (Seamless Toggle)**: Thanh Header trên chế độ Trackpad tích hợp nút chuyển nhanh sang chế độ xem màn hình Mac và ngược lại chỉ với 1 chạm.
+### 1. Cải thiện kết nối qua Tailscale & nhập địa chỉ thủ công (Android & iOS)
+- **Tự điền mặc định cổng `47800`**: Người dùng chỉ cần nhập địa chỉ IP (ví dụ `100.x.y.z`) hoặc tên máy MagicDNS mà không cần gõ kèm `:47800` khi kết nối thủ công hoặc ghép đôi mã 6 số.
+- **Tự nhận diện máy Mac đã ghép khi đổi IP (Android)**: Khi nhập địa chỉ mới của máy Mac duy nhất đã ghép (ví dụ chuyển từ IP LAN sang IP Tailscale khi Wi-Fi chặn giao tiếp nội bộ), ứng dụng tự động dùng khoá đã ghép để kết nối lại ngay thay vì báo nhầm chưa ghép đôi.
+- **Sửa lỗi nút Nối cáp USB (Android)**: Khắc phục lỗi truyền nhầm địa chỉ cũ từ trạng thái UI khi bấm nút Nối cáp USB.
 
-### 2. Đồng bộ giao diện iOS & Android
-- Cập nhật cả ứng dụng iOS (SwiftUI) và Android (Jetpack Compose) đồng bộ trải nghiệm sử dụng.
-- Tối ưu tự động ngắt kết nối và giải phóng tài nguyên mạng khi thoát chế độ bàn phím/chuột ảo.
+### 2. Khắc phục lỗi giao diện chế độ Bàn phím & Chuột ảo
+- **Không còn kẹt lớp phủ `"Đang kết nối…"` (Android)**: Tách logic chờ khung hình đầu tiên khỏi chế độ Trackpad-only để giao diện Trackpad & Bàn phím tương tác được ngay khi kết nối xong.
+- **Tự xin keyframe khi chuyển sang xem màn hình (Android)**: Đảm bảo hình ảnh Mac hiện lên tức thì khi chuyển từ chế độ Trackpad sang xem màn hình từ xa, ngay cả khi màn hình Mac đang đứng yên.
+- **Đồng bộ dọn trạng thái & che nền lớp phủ (Android & iOS)**: Reset `isTrackpadOnlyMode` đúng lúc khi ngắt kết nối hoặc gặp lỗi; thêm nền tối chắn chạm nhầm trên lớp phủ kết nối/mã 6 số của iOS.
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.8-beta/Xdesk-0.1.8-beta.dmg" length="4692199" type="application/octet-stream" sparkle:edSignature="9sEMd4L5g4yq4NclUXXiixEJefNWEaw6VAPxQSKdjYb88p8ajb90r/UIEWSv0DBi11mjQzVUjAvuvq/iow1aBw=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.1.9-beta/Xdesk-0.1.9-beta.dmg" length="4692174" type="application/octet-stream" sparkle:edSignature="hFCTIM9GXmNRVyUl03phAsMyenCiEUjYRFtK408eSKMD4XKPtErOBfgZW++LYrS59Kh750jcZipj2lYzML35Cg=="/>
         </item>
     </channel>
 </rss>
