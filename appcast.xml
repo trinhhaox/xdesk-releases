@@ -3,52 +3,23 @@
     <channel>
         <title>Xdesk</title>
         <item>
-            <title>0.2.1-beta</title>
-            <pubDate>Mon, 23 Nov 2026 04:23:15 +0700</pubDate>
+            <title>0.2.2-beta</title>
+            <pubDate>Mon, 23 Nov 2026 11:56:30 +0700</pubDate>
             <link>https://github.com/trinhhaox/xdesk-releases</link>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>0.2.1-beta</sparkle:shortVersionString>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.2.2-beta</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.2.1-beta
+            <description sparkle:format="markdown"><![CDATA[## Xdesk 0.2.2-beta (chỉ Mac)
 
-Mở khoá Mac bằng Face ID/vân tay có xác thực thật, bàn phím Mac đầy đủ trên điện thoại, chỉnh cửa sổ Mac từ điện thoại, giao diện điều khiển mới cho cả dọc lẫn ngang, và nhiều sửa lỗi kết nối.
+Sửa chế độ **Vừa với điện thoại** cho các app không thu nhỏ được.
 
-### 1. Khoá và mở khoá Mac
-- **Mở khoá bằng Face ID/vân tay có chữ ký**: điện thoại giữ một khoá riêng (iPhone: Secure Enclave, Android: Keystore) chỉ dùng được sau Face ID/vân tay/mã khoá. Mac gửi mã thử thách dùng một lần và chỉ gõ mật khẩu khi chữ ký đúng. Hộp thoại xác thực ghi tên Mac.
-- **Đăng ký khoá**: bật "Mở khoá Mac" hoặc bấm **Đặt lại khoá** ở Cài đặt › Thiết bị, rồi bấm "Mở khoá Mac" trên điện thoại trong 5 phút (có đồng hồ đếm ngược). Máy đã bật quyền mở khoá từ bản trước **phải đặt lại khoá một lần**.
-- **Khoá Mac thật** (như menu Apple › Khoá màn hình); nếu không khoá được, điện thoại báo rõ.
-- **Giữ kết nối khi Mac khoá/ngủ**: điện thoại hiện màn che "Mac đang khoá" có nút **Mở khoá Mac** ngay trên đó; hình tự chạy lại khi Mac mở khoá.
+- Cửa sổ rộng hơn màn hình điện thoại (Xphone, IDE, hộp thoại chọn tệp…) giờ được neo vào góc trên-trái thay vì căn giữa, nên thanh tiêu đề, nút đóng và mép trái luôn nhìn thấy. Phần còn lại xem bằng **Chỉnh cửa sổ** hoặc xoay ngang điện thoại.
+- Cửa sổ tự đổi khung sau khi đã được co (lệch ra ngoài màn hình) giờ được kéo lại vào trong ở lần quét kế tiếp.
+- Cửa sổ đã chỉnh tay bằng **Chỉnh cửa sổ** vẫn không bị đụng tới.
 
-### 2. Bàn phím Mac trên điện thoại
-- Chế độ Bàn phím có **bàn phím Mac đầy đủ** (esc, F1–F12, số, QWERTY, ⇧ ⌃ ⌥ ⌘, phím mũi tên) gửi phím thật: gõ tiếng Việt bằng bộ gõ của Mac, ⌘C/⌘V/⌘Tab/⌘Space chạy như bàn phím thật.
-- Phím bổ trợ: chạm 1 lần áp cho phím kế tiếp, chạm 2 lần khoá, hoặc giữ bằng một ngón. Giữ phím để lặp. Caps lock giữ suốt phiên.
-- Vẫn có kiểu **Gõ văn bản** như trước (nút ⌨ / Aa trên thanh trên cùng).
-
-### 3. Giao diện điều khiển mới (dọc và ngang)
-- Thanh trên cùng gọn một hàng với menu chọn chế độ.
-- **Ngang**: bàn phím chiếm trọn màn hình; thiếu chỗ thì ẩn hàng F, dùng phím `fn`.
-- **Dọc**: nửa trên di chuột, nửa dưới bàn phím.
-- **Slide & Số**: dọc xếp chồng, ngang chia 3 cột; bàn phím số gửi phím số thật.
-- Ở chế độ Chuột/Bàn phím/Slide & Số, **màn hình Mac giữ nguyên** (không tạo màn hình ảo, không co cửa sổ, xoay điện thoại không làm Mac thay đổi).
-
-### 4. Chỉnh cửa sổ Mac từ điện thoại
-- Menu nổi › **Chỉnh cửa sổ**: chạm chọn cửa sổ, kéo 1 ngón để di chuyển, chụm 2 ngón hoặc kéo góc để đổi kích thước, nút nhanh **Vừa màn hình · Trái · Phải · Giữa · Khôi phục**. Cần quyền Điều khiển.
-
-### 5. Kết nối, âm thanh, USB
-- Sửa lỗi Android **"đang kết nối lại" liên tục** qua Tailscale (giải mã âm thanh làm nghẽn kết nối).
-- Âm thanh Android tự tăng bộ đệm khi mạng rung, bớt rè.
-- Đường qua máy chủ trung gian (độ trễ > 80 ms) giới hạn 5 Mb/s cho hình mượt hơn.
-- Mac tự chạy `adb reverse` khi cắm điện thoại Android (đã bật USB debugging).
-
-### 6. Bảo mật
-- Quyền **Gửi/nhận tệp** riêng cho từng thiết bị (mặc định tắt). **Máy đã ghép trước đây cần bật lại quyền này** ở Cài đặt › Thiết bị.
-- Thu hồi thiết bị giữa phiên là mất quyền ngay (tệp, clipboard, mở khoá).
-
-### Lưu ý nâng cấp
-- Sau khi đăng ký khoá mở khoá, **không hạ cấp được** về bản cũ (bản cũ từ chối đọc danh sách thiết bị nhưng không xoá).
-- iOS: bản TestFlight cập nhật sau.
+App iOS và Android không đổi (vẫn 0.2.1-beta).
 ]]></description>
-            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.2.1-beta/Xdesk-0.2.1-beta.dmg" length="5207635" type="application/octet-stream" sparkle:edSignature="7baTFMpoghml6LI49SPB/SAAIFkyr25rUexm1CEDpkTG6C7AYhvUYiwoFY8o2tfNmK9yO9vd4ZjbWipmX0GXDA=="/>
+            <enclosure url="https://github.com/trinhhaox/xdesk-releases/releases/download/v0.2.2-beta/Xdesk-0.2.2-beta.dmg" length="5208099" type="application/octet-stream" sparkle:edSignature="pS3R0tKjIQP5TObFkDNthYLbsp2L7QqXHSSGHmiXLDZT3+iBynoTdDoAKxPCMlDT85wTinZ3T1luM2M6/04NCw=="/>
         </item>
     </channel>
 </rss>
